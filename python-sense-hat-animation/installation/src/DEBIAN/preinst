@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "========== pre install =========="
+killall fc_led_animation
+echo "========== pre install complete =========="
+

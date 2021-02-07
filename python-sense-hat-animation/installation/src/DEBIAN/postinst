@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "========== post install =========="
+
+echo "creating startup services"
+sudo chmod +x /usr/bin/led_animation.py
+
+sudo cp /tmp/fc_led_animation.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable fc_led_animation.service
+
+echo "========== installation complete =========="
+

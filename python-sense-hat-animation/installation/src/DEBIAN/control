@@ -1,0 +1,9 @@
+Package: fc-led-animation
+Version: 1
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: FCao
+Description: led animation

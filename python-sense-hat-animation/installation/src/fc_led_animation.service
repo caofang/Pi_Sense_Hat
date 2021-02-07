@@ -1,0 +1,11 @@
+[Unit]
+Description=LED Animation Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/led_animation.py > /dev/null 2>&1 </dev/null &
+ExecStop=killall led_animation.py
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+to build 
+make
+
+to install 
+make install
+
+to uninstall
+make uninstall
+
+to reinstall
+make reinstall
+
+to clean 
+make clean
